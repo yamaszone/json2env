@@ -1,6 +1,17 @@
 # json2env
 Simple CLI tool to export JSON data as environment variables
 
+## Installation
+### Linux/macOS
+```
+curl -sSL https://github.com/yamaszone/json2env/releases/download/v0.1.0/json2env-v0.1.0-$(
+    bash -c '[[ $OSTYPE == darwin* ]] && echo darwin || echo linux'
+  )-amd64 -o json2env && chmod a+x json2env && sudo mv json2env /usr/local/bin/
+```
+### Windows
+Download executable from [releases page](https://github.com/yamaszone/json2env/releases/tag/v0.1.0)
+
+
 ## Use Case
 `json2env -h`
 ```
